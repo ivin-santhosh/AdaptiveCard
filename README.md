@@ -1,6 +1,6 @@
 # IT Helpdesk : Adaptive Cards Research & Implementation
 
-This repository contains research and JSON schema samples for implementing **Adaptive Cards** within the AstraFin IT Helpdesk Agent (Microsoft Copilot Studio). 
+This repository contains research and JSON schema samples for implementing **Adaptive Cards** within the IT Helpdesk Agent (Microsoft Copilot Studio). 
 
 ## 1. Why Adaptive Cards?
 In an IT Support context, "text bubbles" often lead to user friction. We use Adaptive Cards for the following reasons:
