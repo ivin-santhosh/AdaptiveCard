@@ -1,0 +1,34 @@
+  {
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "System Configuration"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Which Operating System are you currently using?",
+            "wrap": true
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "id": "OSSelection",
+            "style": "expanded",
+            "choices": [
+                { "title": "Windows 11", "value": "Win11" },
+                { "title": "macOS (Sequoia/Sonoma)", "value": "macOS" },
+                { "title": "Linux (Ubuntu/Debian)", "value": "Linux" }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit Selection"
+        }
+    ],
+    "$schema": "[http://adaptivecards.io/schemas/adaptive-card.json](http://adaptivecards.io/schemas/adaptive-card.json)",
+    "version": "1.3"
+}
