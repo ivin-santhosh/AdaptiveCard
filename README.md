@@ -1,4 +1,4 @@
-# AstraFin IT Helpdesk: Adaptive Cards Research & Implementation
+# IT Helpdesk : Adaptive Cards Research & Implementation
 
 This repository contains research and JSON schema samples for implementing **Adaptive Cards** within the AstraFin IT Helpdesk Agent (Microsoft Copilot Studio). 
 
