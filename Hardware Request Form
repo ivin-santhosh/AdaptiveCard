@@ -1,0 +1,30 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Hardware Request Form",
+            "weight": "Bolder",
+            "size": "Large"
+        },
+        {
+            "type": "Input.Text",
+            "id": "AssetReason",
+            "placeholder": "Reason for request (e.g. New Hire, Damaged)",
+            "isMultiline": true
+        },
+        {
+            "type": "Input.Date",
+            "id": "RequiredDate",
+            "title": "Required By Date"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Submit Request"
+        }
+    ],
+    "$schema": "[http://adaptivecards.io/schemas/adaptive-card.json](http://adaptivecards.io/schemas/adaptive-card.json)",
+    "version": "1.3"
+}
